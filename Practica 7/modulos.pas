@@ -46,8 +46,6 @@ end;
 
 
 
-
-
 procedure insertarOrdenado (var L:lista; num:integer);
 var
 	nue, act, ant : lista;
@@ -66,6 +64,7 @@ begin
 		ant^.sig := nue;
 	nue^.sig := act;
 end;
+
 
 
 procedure Eliminar (var L:lista; num : integer);
